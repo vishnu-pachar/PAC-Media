@@ -3191,7 +3191,7 @@ body {
   transform: rotate(2deg) /*translateY(-120px)*/
 }
 .mob-frame-2 {
-  transform: rotate(2deg) translateY(100px);
+  transform: rotate(2deg) translateY(1px);
   background-color: #545454;
 }
 #mob2{
