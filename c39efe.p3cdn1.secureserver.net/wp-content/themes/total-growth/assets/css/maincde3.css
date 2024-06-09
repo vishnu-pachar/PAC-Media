@@ -5689,12 +5689,12 @@ body {
   }
 
   .elem-2 {
-    right: 0;
+    right: -12%;
   }
 
   .elem-1 {
-    left: 0;
-    top: 35%;
+    left: -20%;
+    top: 25%;
   }
 
   .elem-5,
