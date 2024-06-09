@@ -4717,28 +4717,28 @@ body {
 .elem-1 {
   left: 8%;
   animation: moveElem 4s linear infinite;
-  bottom: -1%;
-  width: 20%;
+  bottom: -10%;
+  width: 300px;
 }
 
 .elem-2 {
-  top: 10%;
+  top: -10%;
   right: 5%;
-  width: 13%;
+  width: 220px;
   animation: moveElem 5s linear infinite;
 }
 
 .elem-3 {
   top: -40%;
   left: 25%;
-  width: 5%;
+  width: 7%;
   animation: scale 5s linear infinite;
 }
 
 .elem-4 {
   top: 20%;
   left: 10%;
-  width: 35px;
+  width: 40px;
   transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
 }
@@ -4750,7 +4750,7 @@ body {
 .elem-5 {
   top: 28%;
   right: 25%;
-  width: 8%;
+  width: 10%;
   transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
 }
@@ -4769,14 +4769,14 @@ body {
 .elem-7 {
   bottom: 10%;
   left: 30%;
-  width: 3%;
+  width: 5%;
   animation: scale 4s linear infinite;
 }
 
 .elem-8 {
   bottom: 5%;
   right: 10%;
-  width: 3%;
+  width: 5%;
   transition: all 0.6s ease-in-out;
   -webkit-transition: all 0.6s ease-in-out;
 }
@@ -5694,7 +5694,7 @@ body {
 
   .elem-1 {
     left: 0;
-    top: 65%;
+    top: 35%;
   }
 
   .elem-5,
