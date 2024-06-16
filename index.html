@@ -3,8 +3,13 @@
 
 <!-- 	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=PAC_Media.com/index.html"> -->
 <!--     <iframe src="./PAC_Media.com/index.html" style="width: 100%; border: none;"></iframe> -->
-    
-
+    <body></body>
+<script>
+        // Perform a one-time redirect to the inner index.html with a delay to prevent loops
+        setTimeout(function() {
+            window.location.href = "./PAC_Media.com/index.html";
+        }, 1000); // Delay in milliseconds (1000ms = 1s)
+    </script>
 
 
 
