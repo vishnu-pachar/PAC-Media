@@ -2,7 +2,12 @@
 <BODY>
 
 <!-- 	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=PAC_Media.com/index.html"> -->
-    <iframe src="./PAC_Media.com/index.html" style="width: 100%; border: none;"></iframe>
+<!--     <iframe src="./PAC_Media.com/index.html" style="width: 100%; border: none;"></iframe> -->
+    <script>
+        $(document).ready(function(){
+            $("#content").load("./PAC_Media.com/index.html");
+        });
+    </script>
 
 
 </body>
