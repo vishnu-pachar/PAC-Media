@@ -5,10 +5,10 @@
 <!--     <iframe src="./PAC_Media.com/index.html" style="width: 100%; border: none;"></iframe> -->
     <body></body>
 <script>
-        // Perform a one-time redirect to the inner index.html with a delay to prevent loops
-        setTimeout(function() {
-            window.location.href = "./PAC_Media.com/index.html";
-        }, 1000*60*60*60); // Delay in milliseconds (1000ms = 1s)
+        // Perform a one-time redirect to the inner index.html
+        if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+            window.location.replace("./PAC_Media.com/index.html");
+        }
     </script>
 
 
